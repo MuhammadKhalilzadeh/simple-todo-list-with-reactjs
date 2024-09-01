@@ -8,11 +8,18 @@
 .todo-form {
   border: 1px solid #ccc;
   padding: 20px;
+  margin: 20px 0;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.todo-form input {
+.edit-todo-form {
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.todo-form input,
+.edit-todo-form input {
   width: 300px;
   padding: 5px 10px;
   margin-right: 10px;
@@ -20,7 +27,7 @@
   border-radius: 5px;
 }
 
-.todo-form button {
+.todo-form button .edit-todo-form button {
   padding: 5px 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -28,7 +35,7 @@
   cursor: pointer;
 }
 
-.todo-form button:hover {
+.todo-form button:hover .edit-todo-form button:hover {
   background-color: #e1e1e1;
 }
 

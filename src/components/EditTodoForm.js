@@ -9,7 +9,7 @@ const EditTodoForm = ({ editTodo, task }) => {
   };
 
   return (
-    <form className="EditTodoForm" onSubmit={handleSubmit}>
+    <form className="edit-todo-form" onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="UPDATE TASK"
